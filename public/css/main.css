@@ -1,0 +1,176 @@
+#su-ta{
+    resize: none;
+}
+body{background-color: #fbfbfb;}
+
+/* RESET COLORS */
+div,span,h1,h2,h3,h4,h5,h6{color: #6f6f6f}
+/*END*/
+
+#mnav{background-color: #fe6e00;
+    border: rgba(238, 238, 238, 0.14);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.59);
+}
+#mnav a:hover{
+    color: #fff;
+    transition: all 0.2s ease;
+    text-shadow: 3px 3px 5px #ededed;
+    padding-top: 10px;
+}
+#mnav a{transition: all 0.2s ease;color:#ededed}
+
+#mnav a:active{border:  transparent;outline: none;}
+#mnav a:focus{border: transparent;outline: none;}
+#mnav li:active{border:  transparent;outline: none;}
+#mnav li:focus{border:transparent;outline: none;}
+.mbody{margin-top: 70px}
+.banner{background-color: #fe6e00;padding: 15px}
+.orangebg{background-color: #fe6e00;}
+.whitetxt div h5{color: #222;}
+.whitetxt:hover > .whitetxt div h5{color: #222;}
+.banner h2{color: white;font-size: 40px}
+.banner span{color: white;font-size: 40px}
+.banner h4{color: #ededed; font-size: 20px}
+.txt_white{transition: 0.3s all ease; color: #fff}
+.txt_white:hover{text-shadow: 0px 1px 15px rgba(255, 255, 255, 0.62); }
+
+.mli hr{margin: 5px}
+.mfoot{background-color: #fe6e00; min-height: 50px}
+#cinfo{
+    text-align:justify;
+    font-size: 18px;
+    line-height: 2;
+    color: #222;}
+#odainfo hr{margin: 5px}
+#odainfo i{margin-right: 15px;color: #fe6e00;}
+.pbox{padding: 6px 20px}
+.panhead{
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    margin: 15px;padding: 5px
+}
+#cservice{padding: 20px;
+    color: #585858;
+    font-size: 16px;
+    line-height: 2;
+}
+.imgholder{position:relative;width: 100%;text-align: center}
+.imgfit{
+    width: 100%;
+    position: relative;
+}
+.img-fit{width: 100%;max-width: 160px;border: 5px solid #fff;background-color: #fff;box-shadow: 0px 1px 9px rgba(0, 0, 0, 0.3); }
+#imgbtn{
+    position: relative;
+    margin-top: -60%;
+    font-size: 14px;
+    font-weight: 500
+}
+
+#imgbtn2{
+    position: relative;
+    margin-top: -28%;
+    margin-right: -70%;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.browse{position: relative;}
+#odainfo{
+    margin-bottom: 0;
+    background-color: #fbfbfb;
+    border-radius: 7px;
+    padding: 8px 15px;
+}
+.searchtitle{
+    color: #8e8e8e;
+    font-weight: 600;
+}
+
+#sres{padding: 9px; margin: 20px 0}
+#result hr{margin: 2px}
+.left-space{margin-left: 20px}
+#allcv li:hover{
+    background-color: #e4e4e4
+}
+.dot li:hover{
+    background-color: #e4e4e4
+}
+#ltop{padding: 0px 20px;color: red}
+#lbtop{background-color: #ededed;padding: 0px 20px}
+
+.alert-styled{
+    width: 30%; margin: 0 auto; padding:7px; border-radius: 4px; box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.3);}
+
+#mydrop li a{ color:#fff;}
+#mydrop a:active{background-color: transparent}
+#mydrop a:focus{background-color: transparent}
+#mydrop ul li:hover{background-color: #fe6e00}
+#mydrop ul{background-color: rgba(0, 0, 0, 0.5)
+}
+#mydrop ul li a:hover{background-color: #fe6e00;text-shadow: none}
+.gradient{background: -webkit-linear-gradient(110deg, #fe9d00 20%, #fe6e00 80%);
+    background: linear-gradient(-7deg, #fe9d00 20%, #fe6e00 95%);padding: 15px; border-radius: 6px;}
+.space-left{margin-left: 25px}
+.space-right{margin-right: 25px}
+.cactive{background-color: rgba(249, 154, 0, 0.71);}
+.csidebar a:hover{background-color: #fe9d00;color: #fff}
+.csidebar a.cactive{color: #fff}
+.hover:hover{background-color: #fbfbfb
+}
+.btn-circle{
+    font-size: 19px;border-radius: 100%;padding: 0;margin: 0 2px;
+}
+.modalbg{
+    display: none;
+    position: fixed; /*stay in place*/
+    z-index: 1; /* sit on top */
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); /* Fall back color*/
+    background-color: rgba(0,0,0,0.4); /*opacity*/
+}
+.imgmodal{margin: 65px auto;}
+.close{
+
+    font-size: 25px;
+    padding: 5px 10px;
+    color: white;
+}
+.close:hover{
+    background-color: #bababa;
+    color: #333;
+    cursor: pointer;
+}
+
+.wrap{
+    margin: 0 auto;
+}
+
+.wrapper{
+    background-color: #000000;
+    max-width:800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.wrapper2{
+    padding: 55px;
+}
+
+#cropbox{
+    max-height: 540px;
+    max-width: 540px;
+}
+.simple{
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+
+#imgInp{
+    position: absolute
+}
