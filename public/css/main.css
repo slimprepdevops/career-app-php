@@ -23,7 +23,7 @@ div,span,h1,h2,h3,h4,h5,h6{color: #6f6f6f}
 #mnav a:focus{border: transparent;outline: none;}
 #mnav li:active{border:  transparent;outline: none;}
 #mnav li:focus{border:transparent;outline: none;}
-.mbody{margin-top: 70px}
+.mbody{margin-top: 70px; min-height: 100vh}
 .banner{background-color: #fe6e00;padding: 15px}
 .orangebg{background-color: #fe6e00;}
 .whitetxt div h5{color: #222;}
