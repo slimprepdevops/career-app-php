@@ -51,7 +51,7 @@ cd /var/www/html
 
 sudo rm index.html
 
-sudo git clone https://github.com/beisong7/career.git .
+sudo git clone https://github.com/slimprepdevops/career-app-php.git .
 ```
 
 configure database connection
