@@ -56,6 +56,15 @@ sudo git clone https://github.com/slimprepdevops/career-app-php.git .
 
 configure database connection
 
+Deploy database schema
+
+```bash
+cd /var/www/html/database
+sudo mysql < career_search.sql
+```
+
+edit connection
+
 ```bash
 cd /var/www/html/config
 ```
